@@ -1,49 +1,47 @@
-public class producto {
-    private String nombre;
-    private String describcion;
-    private double precio;
+public class Producto {
+    private String nombreDelproduco;
+    private String descripcionDelProducto;
+    private double precioDelProducto;
     private int cantidad;
-    private String materialElaboracion;
-    private String ejemploUso;
-    private String herramientaNecesaria;
+    private String materialDelProducto;
+    private String ejemploDeUso;
+    private String HerramientaParaUsar;
     
-    public producto(String nombre, String describcion, double precio, int cantidad, String materialElaboracion,
-            String ejemploUso, String herramientaNecesaria) {
-        this.nombre = nombre;
-        this.describcion = describcion;
-        this.precio = precio;
+    public Producto(String nombreDelproduco, String descripcionDelProducto, double precioDelProducto, int cantidad,
+        String materialDelProducto, String ejemploDeUso, String herramientaParaUsar) {
+        
+        this.nombreDelproduco = nombreDelproduco;
+        this.descripcionDelProducto = descripcionDelProducto;
+        this.precioDelProducto = precioDelProducto;
         this.cantidad = cantidad;
-        this.materialElaboracion = materialElaboracion;
-        this.ejemploUso = ejemploUso;
-        this.herramientaNecesaria = herramientaNecesaria;
+        this.materialDelProducto = materialDelProducto;
+        this.ejemploDeUso = ejemploDeUso;
+        this.HerramientaParaUsar = herramientaParaUsar;
+
     }
 
-    public producto(String nombre2, String descripcion, double precio2, int cantidad2) {
-        //TODO Auto-generated constructor stub
+    public String getNombreDelproduco() {
+        return nombreDelproduco;
     }
 
-    public String getNombre() {
-        return nombre;
+    public void setNombreDelproduco(String nombreDelproduco) {
+        this.nombreDelproduco = nombreDelproduco;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public String getDescripcionDelProducto() {
+        return descripcionDelProducto;
     }
 
-    public String getDescribcion() {
-        return describcion;
+    public void setDescripcionDelProducto(String descripcionDelProducto) {
+        this.descripcionDelProducto = descripcionDelProducto;
     }
 
-    public void setDescribcion(String describcion) {
-        this.describcion = describcion;
+    public double getPrecioDelProducto() {
+        return precioDelProducto;
     }
 
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
+    public void setPrecioDelProducto(double precioDelProducto) {
+        this.precioDelProducto = precioDelProducto;
     }
 
     public int getCantidad() {
@@ -54,30 +52,30 @@ public class producto {
         this.cantidad = cantidad;
     }
 
-    public String getMaterialElaboracion() {
-        return materialElaboracion;
+    public String getMaterialDelProducto() {
+        return materialDelProducto;
     }
 
-    public void setMaterialElaboracion(String materialElaboracion) {
-        this.materialElaboracion = materialElaboracion;
+    public void setMaterialDelProducto(String materialDelProducto) {
+        this.materialDelProducto = materialDelProducto;
     }
 
-    public String getEjemploUso() {
-        return ejemploUso;
+    public String getEjemploDeUso() {
+        return ejemploDeUso;
     }
 
-    public void setEjemploUso(String ejemploUso) {
-        this.ejemploUso = ejemploUso;
+    public void setEjemploDeUso(String ejemploDeUso) {
+        this.ejemploDeUso = ejemploDeUso;
     }
 
-    public String getHerramientaNecesaria() {
-        return herramientaNecesaria;
+    public String getHerramientaParaUsar() {
+        return HerramientaParaUsar;
     }
 
-    public void setHerramientaNecesaria(String herramientaNecesaria) {
-        this.herramientaNecesaria = herramientaNecesaria;
+    public void setHerramientaParaUsar(String herramientaParaUsar) {
+        HerramientaParaUsar = herramientaParaUsar;
     }
-
     
+
     
 }
