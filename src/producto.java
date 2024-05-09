@@ -1,16 +1,16 @@
-public class Producto {
-    private String nombreDelproduco;
+class Producto {
+    private String nombreDelProducto;
     private String descripcionDelProducto;
     private double precioDelProducto;
     private int cantidad;
     private String materialDelProducto;
     private String ejemploDeUso;
     private String HerramientaParaUsar;
-    
-    public Producto(String nombreDelproduco, String descripcionDelProducto, double precioDelProducto, int cantidad,
-        String materialDelProducto, String ejemploDeUso, String herramientaParaUsar) {
-        
-        this.nombreDelproduco = nombreDelproduco;
+
+    public Producto(String nombreDelProducto, String descripcionDelProducto, double precioDelProducto, int cantidad,
+            String materialDelProducto, String ejemploDeUso, String herramientaParaUsar) {
+
+        this.nombreDelProducto = nombreDelProducto;
         this.descripcionDelProducto = descripcionDelProducto;
         this.precioDelProducto = precioDelProducto;
         this.cantidad = cantidad;
@@ -20,12 +20,12 @@ public class Producto {
 
     }
 
-    public String getNombreDelproduco() {
-        return nombreDelproduco;
+    public String getNombreDelProducto() {
+        return nombreDelProducto;
     }
 
-    public void setNombreDelproduco(String nombreDelproduco) {
-        this.nombreDelproduco = nombreDelproduco;
+    public void setNombreDelProducto(String nombreDelProducto) {
+        this.nombreDelProducto = nombreDelProducto;
     }
 
     public String getDescripcionDelProducto() {
@@ -75,7 +75,5 @@ public class Producto {
     public void setHerramientaParaUsar(String herramientaParaUsar) {
         HerramientaParaUsar = herramientaParaUsar;
     }
-    
-
-    
 }
+
